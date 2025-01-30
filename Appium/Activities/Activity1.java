@@ -39,7 +39,7 @@ public class Activity1 {
     public void multiplyTest() {
         // Perform the calculation
         driver.findElement(AppiumBy.id("digit_5")).click();
-        driver.findElement(AppiumBy.accessibilityId("multiply")).click();
+        driver.findElement(AppiumBy.accessibilityId("×")).click();
         driver.findElement(AppiumBy.id("digit_8")).click();
         driver.findElement(AppiumBy.accessibilityId("equals")).click();
 
